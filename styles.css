@@ -1,0 +1,44 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: red;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Container */
+.container {
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: inline-block;
+}
+
+/* Input */
+input {
+    padding: 5px;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Button */
+button {
+    padding: 5px 20px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+/* Result */
+#resultado {
+   margin-top: 20px;
+   font-size: 18px;
+}
